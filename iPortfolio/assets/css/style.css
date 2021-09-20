@@ -1079,6 +1079,27 @@ body{
   font-size: 13px;
   color: #eaebf0;
 }
+#contact .card:hover i,#contact .card:hover h4{
+	color: #87d37c;
+}
+
+#map-outer {
+    height: 240px;
+    padding: 20px;
+	border: 0px;
+	margin-bottom: 20px;
+	background-color:#FFF }
+#map-container { height: 400px }
+@media all and (max-width: 991px) {
+    #map-outer  { height: 650px }
+}
+.center {
+    margin: auto;
+    width: 50%;
+    border: 0px;
+    padding: 10px;
+    text-align: center;
+}
 
 @media (max-width: 1199px) {
   #footer {
